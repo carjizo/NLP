@@ -1,0 +1,71 @@
+{
+    "intents":[
+        {
+            "tag":"saludo",
+            "patterns":["hola","buenas","hey","despierta","helena"
+            ],
+            "responses":["hola","Cómo está usted.","Siempre para usted",
+                "buenas","Aquí está tu asistente."
+            ]
+        },
+        {
+            "tag":"adiós",
+            "patterns":["adiós","hasta pronto","hasta luego","dormir","salir", "chau"
+            ],
+            "responses":["Adiós.","Yo me voy.","Adiós señor.","Hasta pronto",
+                "Será un placer volver a verte.","Hasta luego","Chau"
+            ]
+        },
+        {
+            "tag":"salud",
+            "patterns":["¿cómo estás?","como tú","¿Estás bien?","Eres buena persona"
+            ],
+            "responses":["Ok.","Perfecto.","Frío.",
+                "Como tú.","¿Estás bien? Estoy bien."
+            ]
+        },
+        {
+            "tag":"identidad",
+            "patterns":["tu nombre","cuál es tu nombre","quién eres","qué eres" 
+            ],
+            "responses":["Helena","Soy Helena.","Soy una asistente con inteligencia artificial.",
+                "Mi nombre es Helena.","Gran asistente"
+            ]
+        },
+        {
+            "tag":"hora",
+            "patterns":["qué hora es","hora","tiempo","dime la hora"
+            ],
+            "responses":["hora"
+            ]
+        },
+        {
+            "tag":"fecha",
+            "patterns":["qué fecha es","fecha","dime la fecha"
+            ],
+            "responses":["fecha"
+            ]
+        },
+        {
+            "tag":"día",
+            "patterns":["cuál es el día","día","qué día es","cuál es el día","hoy" 
+            ],
+            "responses":["día"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["quién es","acerca de","qué es","wikipedia" 
+            ],
+            "responses":["wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["búsqueda de google","google","búsqueda" 
+            ],
+            "responses":["google"
+            ]
+        }
+    ]
+}
