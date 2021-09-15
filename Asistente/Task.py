@@ -1,5 +1,5 @@
 #Function
-from Asistente.Speak import Speak
+#from Asistente.Speak import Speak
 import datetime
 from Speak import Speak
 #2 Types
@@ -41,7 +41,7 @@ def InputExecution(tag,query):
         name = str(query).replace("quién es","").replace("sobre","").replace("qué es","").replace("wikipedia","")
         import wikipedia
         wikipedia.set_lang("es")
-        result = wikipedia.summary(name)
+        result = wikipedia.summary(name,1)
         Speak(result)
 
     elif "google" in tag:
