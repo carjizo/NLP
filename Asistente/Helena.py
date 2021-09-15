@@ -27,7 +27,7 @@ model.eval()
 Name = "Helena"
 
 from Listen import Listen
-from Speak import Say
+from Speak import Speak
 from Task import InputExecution
 from Task import NonInputExecution
 
@@ -74,7 +74,10 @@ def Main():
                     InputExecution(reply,result)
 
                 else:
-                    Say(reply)
+                    Speak(reply)
 
 while True:
     Main()
+
+
+    #hola
